@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Resultate_OptimizeConfigurables>
+      <version>1.0.0</version>
+    </Resultate_OptimizeConfigurables>
+  </modules>
+  <global>
+    <helpers>
+      <optimizeconfigurables>
+        <class>Resultate_OptimizeConfigurables_Helper</class>
+      </optimizeconfigurables>
+    </helpers>
+	<models>
+	  <optimizeconfigurables>
+		<class>Resultate_OptimizeConfigurables_Model</class>
+		<resourceModel>optimizeconfigurables_mysql4</resourceModel>
+	  </optimizeconfigurables>
+			<catalog>
+				<rewrite>
+					<product_type_configurable>Resultate_OptimizeConfigurables_Model_Catalog_Product_Type_Configurable</product_type_configurable>
+				</rewrite>
+			</catalog>
+			<catalog_resource>
+				<rewrite>
+					<product_type_configurable_attribute_collection>Resultate_OptimizeConfigurables_Model_Catalog_Resource_Product_Type_Configurable_Attribute_Collection</product_type_configurable_attribute_collection>
+				</rewrite>
+			</catalog_resource>
+			<eav>
+				<rewrite>
+					<entity_attribute_source_table>Resultate_OptimizeConfigurables_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
+				</rewrite>
+			</eav>
+	</models>
+  </global>
+</config> 

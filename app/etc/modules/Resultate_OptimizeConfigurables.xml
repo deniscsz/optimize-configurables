@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Resultate_OptimizeConfigurables>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>1.0.0</version>
+    </Resultate_OptimizeConfigurables>
+  </modules>
+</config>
