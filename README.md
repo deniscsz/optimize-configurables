@@ -9,7 +9,7 @@ Install (modman)
 
 Credits
 ------------------
-Based on the explanation **VYACHESLAV FEDORENKO**
+Based on the explanation of **VYACHESLAV FEDORENKO**
 
 Reference 1: http://astrio.net/blog/magento-perfomance-optimization-of-configurable-products/
 
